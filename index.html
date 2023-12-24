@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Emmanuel Orhokpoke" />
+    <meta
+      name="description"
+      content="AltSchool Assignment 3 - A checker page" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checker Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/wppusher-logo-copy.jpg" />
+  </head>
+  <body>
+    <header>
+      <section class="logo">
+        <h1>WP Pusher</h1>
+        <img src="img/wppusher-logo-copy.jpg" alt="WP Pusher" />
+      </section>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Download</a>
+          </li>
+          <li>
+            <a href="#">Learn more</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <a href="#"><button>Account</button></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="checkoutPage">
+        <h2>Checkout</h2>
+        <div class="basicInfo">
+          <form action="" method="post">
+            <div class="formGroup">
+              <div>
+                <section class="titleGroup">
+                  <div class="circle">1</div>
+                  <p class="title">Your Basic Information</p>
+                </section>
+                <section class="formSection">
+                  <p class="innerContent">
+                    <label for="firstName">First Name</label>
+                    <input
+                      type="text"
+                      name="firstName"
+                      id="firstName"
+                      placeholder="Jane"
+                      required />
+                  </p>
+                  <p class="innerContent">
+                    <label for="lastName">Last Name</label>
+                    <input
+                      type="text"
+                      name="lastName"
+                      id="lastName"
+                      placeholder="Doe"
+                      required />
+                  </p>
+                  <p class="innerContent">
+                    <label for="email">E-mail</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="janedoe@example.com"
+                      required />
+                  </p>
+                </section>
+              </div>
+              <div>
+                <section class="titleGroup">
+                  <div class="circle">2</div>
+                  <p class="title">Your Payment Information</p>
+                </section>
+                <section class="formSection">
+                  <p class="innerContent">
+                    <label for="creditCard">Credit Card</label>
+                  </p>
+                  <div class="cardInput">
+                    <input
+                      type="text"
+                      name="creditCard"
+                      id="creditCard"
+                      placeholder="Card Number"
+                      required />
+                    <input
+                      type="text"
+                      name="creditCard"
+                      id="cardExpiryDate"
+                      placeholder="MM / YY"
+                      required />
+                    <input
+                      type="text"
+                      name="creditCard"
+                      id="cardCVC"
+                      placeholder="CVC"
+                      required
+                      maxlength="3" />
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <button type="submit">Buy WP Pusher</button>
+          </form>
+        </div>
+        <div class="paymentInfo">
+          <section class="titleGroup help">
+            <div class="circle helpCircle">?</div>
+            <p class="title">
+              Need any help?
+              <span class="support"
+                >Don't hesitate to
+                <span class="contact">contact</span> support!</span
+              >
+            </p>
+          </section>
+          <p>
+            <img src="img/powered_by_stripe.jpg" alt="Powered by Stripe" />
+          </p>
+        </div>
+      </section>
+      <aside class="sideBar">
+        <div>
+          <p>Freelancer</p>
+          <p>
+            <span class="dollar">$</span>
+            <span class="year">99 <sub> / year</sub></span>
+          </p>
+          <p>Automatically renews <br />after 1 year</p>
+        </div>
+        <div>
+          <ul>
+            <li>Use on <span>5</span> client sites</li>
+            <li>Private repositories</li>
+            <li>Email support</li>
+          </ul>
+        </div>
+        <div>
+          <div class="client">
+            <p>
+              Need <span>20</span> client sites? Switch to the
+              <span>Agency </span> plan.
+            </p>
+          </div>
+        </div>
+        <div>
+          <blockquote>
+            <p>
+              FTP is horrible to deal with. <span>WP Pusher</span> solves that
+              issue, and the customer support is awesome!
+            </p>
+            <p>
+              <img src="img/Bitmap.jpg" alt="Kirk Beard" />
+              <cite>Kirk Beard</cite>
+            </p>
+          </blockquote>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy;2018 WP Pusher IVS · <a href="#">Terms of Service</a></p>
+    </footer>
+  </body>
+</html>
